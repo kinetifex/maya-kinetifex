@@ -1,0 +1,6 @@
+global proc startup_kinetifex()
+{
+	python("import kinetifex");
+	python("kinetifex.menu.show()");
+	print("// Kinetifex session initialized.\n");
+}
